@@ -18,11 +18,17 @@ Start your PocketMine-MP server and enjoy.
 Configuration
 ResetBuild can be configured by editing the config.yml file in the plugin's directory or using the command /buildreset. Here you can see what can be configured:
 ```php
+# Enable build reset in worlds...
+# You can add worlds manually or with the /buildreset command.
 worlds:
   - world
 
+# Edit blocks despawn countdown.
+# You can manage when the blocks should disappear.
 despawn_countdown: 5
- 
+
+# Edit blocks despawn particle.
+# You can manage whether to show the block particles or not.
 despawn_particle: true
 ```
 
