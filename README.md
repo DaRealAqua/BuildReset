@@ -23,7 +23,8 @@ worlds:
 
 despawn_countdown: 5
  
-despawn_particle: true```
+despawn_particle: true
+```
 
 Contributing
 If you find a bug or want to help improve the plugin, join my discord server and make a suggestion.
