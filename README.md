@@ -16,7 +16,7 @@ Place the downloaded .phar file into your PocketMine-MP plugins directory.
 Start your PocketMine-MP server and enjoy.
 
 ### Configuration
-ResetBuild can be configured by editing the config.yml file in the plugin's directory or using the command /buildreset. Here you can see what can be configured:
+ResetBuild can be configured by editing the ``config.yml`` file in the plugin's directory or using the command /buildreset. Here you can see what can be configured:
 ```php
 # Enable build reset in worlds...
 # You can add worlds manually or with the /buildreset command.
