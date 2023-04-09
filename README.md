@@ -1,6 +1,6 @@
 # BuildReset
 ### Description
-BuildReset is a plugin that makes the blocks placed on the ground disappear after a certain time from the world where it is placed. To change some settings, you can edit ``config.yml`` or use the /buildreset command.
+BuildReset is a plugin that makes the blocks placed on the ground disappear after a certain time from the world where it is placed. You can add in which worlds the build reset should work, after how long time the blocks to disappear from the world and whether the particles of the respective block appear or not.
 
 ### Features
 - configurable config
