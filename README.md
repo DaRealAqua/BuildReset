@@ -16,9 +16,14 @@ Place the downloaded .phar file into your PocketMine-MP plugins directory.
 Start your PocketMine-MP server and enjoy.
 
 Configuration
-ResetBuild can be configured by editing the config.yml file in the plugin's directory. Here are the configuration options available:
+ResetBuild can be configured by editing the config.yml file in the plugin's directory or using the command /buildreset. Here you can see what can be configured:
+worlds:
+  - world
 
-[List the available configuration options and provide a brief explanation of each one]
+despawn_countdown: 5
+ 
+despawn_particle: true
+
 Contributing
 If you find a bug or want to help improve the plugin, join my discord server and make a suggestion.
 
