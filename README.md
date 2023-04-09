@@ -5,13 +5,13 @@ BuildReset is a plugin that makes the blocks placed on the ground disappear afte
 Features
 - configurable config
 - particle
-- block countdown
-- multiple worlds
+- countdown
+- worlds
 
 Installation
 To install BuildReset, simply follow these steps:
 
-Download the latest version of BuildReset from the Releases page on GitHub.
+Download the latest version of BuildReset from the Releases page on GitHub / poggit.
 Place the downloaded .phar file into your PocketMine-MP plugins directory.
 Start your PocketMine-MP server and enjoy.
 
