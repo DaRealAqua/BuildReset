@@ -25,7 +25,7 @@ class Main extends PluginBase {
 	public function onEnable(): void {
 		$this->saveDefaultConfig();
 		$this->getServer()->getPluginManager()->registerEvents(new Eventlistener($this), $this);
-		$this->getServer()->getCommandMap()->register($this->getName(), new BuildResetCommand($this), "buildreset");
+		$this->getServer()->getCommandMap()->register($this->getDescription()->getName(), new BuildResetCommand($this), "buildreset");
 	}
 
 	/**
