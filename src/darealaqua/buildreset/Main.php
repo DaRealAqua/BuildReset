@@ -33,7 +33,7 @@ class Main extends PluginBase {
 	 */
 	public function onDisable(): void {
 		if (!empty($this->blocks)) {
-			$this->getLogger()->info(C::YELLOW . count($this->blocks) . C::GRAY . " block(s) has been removed!");
+			//$this->getLogger()->info(C::YELLOW . count($this->blocks) . C::GRAY . " block(s) has been removed!");
 			$this->removeAllBlocksData();
 		}
 	}
