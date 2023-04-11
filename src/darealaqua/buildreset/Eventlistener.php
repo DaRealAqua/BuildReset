@@ -31,7 +31,7 @@ class Eventlistener implements Listener {
 		$block = $event->getBlock();
 		$world = $block->getPosition()->getWorld();
 		$cfg = $this->main->getConfig();
-		if (in_array($world->getDisplayName(), $cfg->get("worlds")) || in_array($world->getFolderName(), $cfg->get("worlds"))) {
+		if (in_array($world->getDisplayName(), $cfg->get("enabled_worlds")) || in_array($world->getFolderName(), $cfg->get("enabled_worlds"))) {
 			$this->main->addBlockData($block);
 			$this->main->getScheduler()->scheduleDelayedTask(new BlockTask($this->main, $block), 20 * $cfg->get("despawn_countdown"));
 		}
