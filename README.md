@@ -4,9 +4,9 @@ BuildReset is a plugin that makes the blocks placed on the ground disappear afte
 
 ### Features
 - configurable config
+- support worlds
 - particle
 - countdown
-- worlds
 
 ### Installation
 To install BuildReset, simply follow these steps:
